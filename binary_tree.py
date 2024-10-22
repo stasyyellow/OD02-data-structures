@@ -1,3 +1,5 @@
+#бинарное дерево
+
 class Node:
     def __init__(self, key):
         self.left = None

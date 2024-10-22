@@ -1,3 +1,5 @@
+#очереди
+
 class Queue:
     def __init__(self):
         self.items = []
@@ -18,7 +20,7 @@ class Queue:
         return len(self.items)
 
 
-# Пример использования очереди
+
 queue = Queue()
 queue.enqueue(1)
 queue.enqueue(2)
